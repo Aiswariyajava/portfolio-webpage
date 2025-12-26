@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+  font-family: "Cause", cursive;
+  background-color: rgb(1, 1, 59);
+}
+html{
+  scroll-behavior:smooth;
+}
+.navigation{
+    background-color:rgb(62, 0, 0);
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.nav{
+  display:flex;
+  column-gap:20px;
+  align-items: center;
+}
+.nav-items a{
+  color:white;
+}
+.nav-items a:hover{
+  color:black;
+}
+.Home{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:nowrap;
+}
+.image{
+  display:flex;
+  justify-content:flex-end;
+}
+.image img{
+ width:400px;
+ height:350px;
+ padding:20px;
+border-radius:50%;
+
+}
+.home-content{
+  display:flex;
+  color:rgb(66, 66, 66);
+  flex-direction:column;
+  justify-content:center;
+  margin:20px;
+
+}
+.home-content h1{
+  color:rgb(249, 246, 246);
+  margin-bottom: 10px;
+}
+.home-content h2{
+  margin-bottom:10px;
+}
+.hom-content h4{
+  margin-bottom:10px;
+}
+.Home .home-content .links a{
+  
+  display:inline-block;
+  color:bisque;
+  margin-top:20px;
+  cursor:pointer;
+  margin-right: 10px;
+  text-decoration:none;
+  margin-top:20px;
+  border-color:white;
+  border-width:2px;
+  border-style:solid;
+  
+  
+}
+.Home .home-content .links a:hover{
+  background-color:black;
+}
+.Home .home-content h1{
+  font-size:45px;
+}
+.Skills .h h1,p{
+  text-align: center;
+  padding:20px;
+  color:white;
+}
+@media screen and (max-width:600px){
+  .Home{
+    flex-direction: column-reverse;
+  }
+  .Home .home-content .h1{
+    font-size:35px;
+    
+
+  }
+}
+
+.Skills .skill-list {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+.Skills .skill-list .sk{
+  padding:20px;
+  font-size: 35px;
+  color:white;
+  text-decoration: none;
+  border-color:black;
+  border-width:2px;
+  border-style: solid;
+  margin-left:35px;
+  
+
+}
+
+.Skill .skill-list .sk {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Skills .skill-list .sk:hover {
+  background-color:black;
+
+}
+.Contact h1{
+  text-align: center;
+  padding:20px;
+  color:white;
+
+}
+.Contact .details {
+  padding:20px;
+  margin-bottom:20px;
+  line-height:1.6;
+  color:rgb(91, 2, 91);
+}
+.Contact .details {
+  padding:20px;
+  margin-left:20px;
+
+}
+.Contact .message{
+  display:flex;
+
+}
+.Contact .message p{
+  flex:3;
+}
+.Contact .message form{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  color:white;
+  margin-bottom:10px;
+}
+.Contact .message form button{
+  margin-top:10px;
+  background-color:blue;
+
+}
+
+
+
+  
+
+
+
